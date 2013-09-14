@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Alipay payment",
    "author" : [
       "Fayland Lam <fayland@gmail.com>"
    ],
@@ -36,6 +36,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Digest::MD5" : "0",
+            "LWP::Protocol::https" : "0",
+            "LWP::UserAgent" : "0",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +49,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/perl-Business-Alipay/issues"
+      },
+      "homepage" : "https://github.com/fayland/perl-Business-Alipay",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/perl-Business-Alipay.git",
+         "web" : "https://github.com/fayland/perl-Business-Alipay"
+      }
+   },
    "version" : "0.01"
 }
 
